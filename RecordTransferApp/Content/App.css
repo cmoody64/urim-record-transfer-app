@@ -1,1 +1,15 @@
 ﻿/* Place custom styles below */
+.appContainer {
+    padding-left: 205px;
+    padding-top: 50px;
+}
+
+.userLayout {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.adminLayout {
+    margin-left: 20px;
+    margin-top: 30px;
+}

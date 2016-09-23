@@ -28,8 +28,9 @@
   },
   "scripts": {
     "webpack": "webpack",
-    "webpack:optimize": "webpack --optimize-minify --optimize-dedupe",
-    "webpack:watch": "webpack --watch --progress"
+    "webpack:optimize": "webpack --optimize-minimize --optimize-dedupe",
+    "webpack:watch": "webpack --watch --progress",
+    "dev": "webpack --watch --progress --optimize-minimize --optimize-dedupe"
   },
   "author": "",
   "license": ""

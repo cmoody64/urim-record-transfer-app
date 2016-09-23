@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Scripts">
-    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\main.js" Url="Scripts/src/main.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\actions\constants.js" Url="Scripts/src/actions/constants.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\components\AppNavigation.js" Url="Scripts/src/components/AppNavigation.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\dispatcher\dispatcher.js" Url="Scripts/src/dispatcher/dispatcher.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\layout\AdminLayout.js" Url="Scripts/src/layout/AdminLayout.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\layout\App.js" Url="Scripts/src/layout/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\layout\UserLayout.js" Url="Scripts/src/layout/UserLayout.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\stores\userStore.js" Url="Scripts/src/stores/userStore.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\build\main.bundle.js" Url="Scripts/build/main.bundle.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\build\main.bundle.js.map" Url="Scripts/build/main.bundle.js.map" ReplaceContent="TRUE" />
   </Module>
 </Elements>

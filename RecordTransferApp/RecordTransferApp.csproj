@@ -48,18 +48,27 @@
       <SharePointProjectItemId>{13997b90-e12b-4e40-b663-ca53922e75ae}</SharePointProjectItemId>
     </None>
     <Content Include="Pages\Elements.xml" />
-    <Content Include="Pages\Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Scripts\build\main.bundle.js.map" />
     <None Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{7f1282d7-30bd-4bce-b209-3478e3a3a4b5}</SharePointProjectItemId>
     </None>
+    <Content Include="Pages\index.aspx" />
+    <Content Include="Scripts\build\main.bundle.js" />
     <Content Include="Scripts\Elements.xml" />
-    <Content Include="Scripts\App.js" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\src\actions\constants.js" />
+    <Content Include="Scripts\src\components\AppNavigation.js" />
+    <Content Include="Scripts\src\dispatcher\dispatcher.js" />
+    <Content Include="Scripts\src\layout\AdminLayout.js" />
+    <Content Include="Scripts\src\layout\App.js" />
+    <Content Include="Scripts\src\layout\UserLayout.js" />
+    <Content Include="Scripts\src\main.js" />
+    <Content Include="Scripts\src\stores\userStore.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
