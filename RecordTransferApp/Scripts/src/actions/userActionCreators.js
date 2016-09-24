@@ -1,21 +1,23 @@
 import dispatcher from '../dispatcher/dispatcher'
 import {
-    SAVE_USERNAME,
-    SAVE_ADMIN_STATUS,
+    CACHE_USERNAME,
+    CACHE_ADMIN_STATUS,
     POST_USER_PERMISSON_ERROR,
-    CLEAR_USER_PERMISSION_ERROR
+    CLEAR_USER_PERMISSION_ERROR,
+    CACHE_USER_PENDING_RECORDS,
+    CACHE_USER_RECORDS_AWAITING_REVIEW
 } from './constants.js'
 
-export function saveCurrentUsername(username) {
+export function cacheCurrentUsername(username) {
     dispatcher.dispatch({
-        type: SAVE_USERNAME,
+        type: CACHE_USERNAME,
         username
     })
 }
 
-export function saveCurrentAdminStatus(adminStatus) {
+export function cacheCurrentAdminStatus(adminStatus) {
     dispatcher.dispatch({
-        type: SAVE_ADMIN_STATUS,
+        type: CACHE_ADMIN_STATUS,
         adminStatus
     })
 }
@@ -29,5 +31,19 @@ export function postUserPermissionError() {
 export function clearUserPermissionError() {
     dispatcher.dispatch({
         type: CLEAR_USER_PERMISSION_ERROR
+    })
+}
+
+export function cacheUserPendingRecords(records) {
+    dispatcher.dispatch({
+        type: CACHE_USER_PENDING_RECORDS,
+        records
+    })
+}
+
+export function cacheUserRecordsAwaitingReview(records) {
+    dispatcher.dispatch({
+        type: CACHE_USER_RECORDS_AWAITING_REVIEW,
+        records
     })
 }

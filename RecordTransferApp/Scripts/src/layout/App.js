@@ -18,7 +18,10 @@ export const App = React.createClass({
     },
 
     getInitialState() {
-        return { isAdminLoggedIn: false, userPermissionError: false }
+        return {
+            isAdminLoggedIn: UserStore.isAdminLoggedIn(),
+            userPermissionError: UserStore.isUserPermissionError()
+        }
     },
 
     componentWillMount() {
@@ -31,10 +34,13 @@ export const App = React.createClass({
     },
 
     render() {
-        debugger
         return (
             <div className='appContainer'>
-                <AppNavigation isAdminLoggedIn={this.state.isAdminLoggedIn} router={this.context.router} />
+                <AppNavigation
+                    isAdminLoggedIn={this.state.isAdminLoggedIn}
+                    router={this.context.router}
+                    displayedSubPath={this.props.location.pathname}
+                 />
                 {this.state.userPermissionError && <ErrorMessage errorText='You must be an administrator to enter this part of the app' />}
                 {this.props.children}
             </div>

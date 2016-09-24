@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="05e86625-56b2-412e-90ad-f751c44ee218" 
-        solutionId="05e86625-56b2-412e-90ad-f751c44ee218" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="RecordTransferApp"
-        sharePointProductVersion="15.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="05e86625-56b2-412e-90ad-f751c44ee218" solutionId="05e86625-56b2-412e-90ad-f751c44ee218" resetWebServer="false" sharePointProductVersion="15.0" name="RecordTransferApp" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
-        <featureReference itemId="75e0335c-04bd-462a-94c6-f6c5b57050d3" />
+    <featureReference itemId="75e0335c-04bd-462a-94c6-f6c5b57050d3" />
+    <featureReference itemId="ad8e00ee-3c88-4c23-9431-205ff172cc67" />
+    <featureReference itemId="feb1262b-ca4a-486a-b41e-0af0c56a9f12" />
   </features>
 </package>

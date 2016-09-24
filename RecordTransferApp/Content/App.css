@@ -13,3 +13,13 @@
     margin-left: 20px;
     margin-top: 30px;
 }
+
+.recordsListContainer {
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button.list-group-item.list-group-item-info {
+    background-color: #E8F2F6;
+}

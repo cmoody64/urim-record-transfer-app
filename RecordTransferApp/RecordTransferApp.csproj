@@ -43,19 +43,58 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Administrators\AdministratorsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{68eb6bfc-7db8-40e9-8c81-2ce921accd71}</SharePointProjectItemId>
+    </None>
+    <None Include="Administrators\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c25596a2-5819-4a4f-a932-605ff932d62f}</SharePointProjectItemId>
+    </None>
+    <None Include="ArchivedRequests\ArchivedRequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f1b839ec-d03a-4602-bf6a-7c34343daf63}</SharePointProjectItemId>
+    </None>
+    <None Include="ArchivedRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4295c739-10fd-4c02-a4b1-32f5f8871107}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{ad8e00ee-3c88-4c23-9431-205ff172cc67}</FeatureId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{feb1262b-ca4a-486a-b41e-0af0c56a9f12}</FeatureId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{13997b90-e12b-4e40-b663-ca53922e75ae}</SharePointProjectItemId>
     </None>
+    <Content Include="Administrators\AdministratorsInstance\Elements.xml" />
+    <Content Include="Administrators\Elements.xml" />
+    <Content Include="Administrators\Schema.xml" />
+    <Content Include="ArchivedRequests\ArchivedRequestsInstance\Elements.xml" />
+    <Content Include="ArchivedRequests\Elements.xml" />
+    <Content Include="ArchivedRequests\Schema.xml" />
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Content>
     <Content Include="Pages\Elements.xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="PendingRequests\PendingRequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{244991d6-585f-47c9-a0a9-c1afd6220984}</SharePointProjectItemId>
+    </None>
+    <None Include="PendingRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2876ba42-a6df-4565-aa62-f9a6602f738f}</SharePointProjectItemId>
+    </None>
     <None Include="Scripts\build\main.bundle.js.map" />
     <None Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{7f1282d7-30bd-4bce-b209-3478e3a3a4b5}</SharePointProjectItemId>
     </None>
     <Content Include="Pages\index.aspx" />
+    <Content Include="PendingRequests\Elements.xml" />
+    <Content Include="PendingRequests\PendingRequestsInstance\Elements.xml" />
+    <Content Include="PendingRequests\Schema.xml" />
     <Content Include="Scripts\build\main.bundle.js" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
